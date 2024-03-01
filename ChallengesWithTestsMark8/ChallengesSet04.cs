@@ -9,13 +9,13 @@ namespace ChallengesWithTestsMark8
         public int AddEvenSubtractOdd(int[] numbers)
         {
             var sum = 0;
-            foreach (var num in numbers) 
+            foreach (var num in numbers)
             {
-                if (num % 2 == 0) 
+                if (num % 2 == 0)
                 {
                     sum += num;
                 }
-                if (num % 2 != 0) 
+                if (num % 2 != 0)
                 {
                     sum -= num;
                 }
